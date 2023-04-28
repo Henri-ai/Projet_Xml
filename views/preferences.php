@@ -25,7 +25,7 @@
                 <option value="3">12</option>
             </select>
         </div>
+        <button class="button">Envoyer</button>
         </form>
-    <button class="button">Envoyer</button>
     </div>
 </div>

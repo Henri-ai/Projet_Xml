@@ -11,21 +11,23 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <img class="logoNav" src="/public/assets/img/logo-no-background.png" alt="logo">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="#">Choice 1</a>
-                        <a class="nav-link" href="#">Choice 2</a>
-                        <a class="nav-link" href="#">Choice 3</a>
+    
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <img class="logoNav" src="/public/assets/img/logo-no-background.png" alt="logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="#">Choice 1</a>
+                            <a class="nav-link" href="#">Choice 2</a>
+                            <a class="nav-link" href="#">Choice 3</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container-fluid">
+            </nav>
+        </header>
+    <div class="container">
+        
