@@ -1,0 +1,98 @@
+
+body{
+    margin: 0;
+
+
+}
+.container{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+background-color: rgb(255, 0, 238);
+}
+
+    .header{
+    background-color: #212529;
+    height: 8%;
+    }
+
+        .logoNav{
+            width: 30%;
+            margin-left: 15px;
+        }
+
+            .container-fluid{
+                height: 100%;
+            }
+
+                #navbarNavAltMarkup{
+                    display: flex;
+                    justify-content: center;
+                }
+
+                    .nav-link {
+                        color: #F3A83B;
+                        font-size: 25px;
+                    }
+
+
+
+#mid {
+    background-color: rgb(249, 237, 20);
+    height: 72%;
+    width: 100%;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .formMid{
+        background-color: rgb(255, 255, 242);
+        height: 55%;
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        padding: 18px;
+        border-radius: 15px;
+        border: solid;
+        flex-direction: column;
+    }
+    
+    .checkBox{
+        height: 90%;
+        font-size: 25px;
+        
+        }
+
+        #titleCheckBox{
+            text-align: center;
+        }
+            
+            .choice{
+                display: flex;
+                flex-direction: column;
+            }
+
+                .select{
+                    height: 40%;
+                    font-size: 25px;
+                    align-items: center;
+                }
+
+
+#footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3A83B;
+    height: 20%;
+    }
+
+        /* .endFooter{
+ 
+        } */
