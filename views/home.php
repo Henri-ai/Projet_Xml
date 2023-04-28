@@ -9,6 +9,9 @@ foreach ($items as $item) { ?>
     $namespace = $item->getNamespaces(true);
     $media=$item->children($namespace['media']);
     $imageUrl=$media->content->attributes()['url'];
+    $date = new DateTime();
+    $formatter = new IntlDateFormatter('fr_FR');
+    $formatter->setPattern('EEEE dd MMMM y H:mm');
     //----------------------------------------------------
     ?>
     
@@ -20,7 +23,7 @@ foreach ($items as $item) { ?>
             <div class="col-md-8 col-lg-12">
                 <div class="card-body">
                     <h5 class="card-title"><a href="<?= $item->link ?>"><?= $item->title ?></a></h5>
-                    <p class="card-text"><small class="text-muted"><?= $item->pubDate ?></small></p>
+                    <p class="card-text"><small class="text-muted"><?= $item->pubDate=$formatter->format($date) ?></small></p>
                     <p class="card-text"><?= $item->description ?></p>
                 </div>
             </div>

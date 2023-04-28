@@ -12,6 +12,6 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col">
-            <div class="d-lg-inline-flex flex-lg-wrap justify-content-center">
+            <div class="d-flex flex-wrap justify-content-center">
                 
                 
