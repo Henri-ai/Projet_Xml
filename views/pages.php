@@ -14,13 +14,12 @@ foreach ($items as $item) { ?>
     $formatter->setPattern('EEEE dd MMMM y H:mm');
     //----------------------------------------------------
     ?>
-    
-    <div class="card mb-3 mx-2 " style="max-width:400px">
+    <div class="card mb-3 mx-2" style="max-width:400px">
         <div class="row g-0">
-            <div class="col-md-4 col-lg-12">
+            <div class="col-md-4">
                 <img src="<?= $imageUrl?>" class="imgNews img-fluid rounded-start" alt="...">
             </div>
-            <div class="col-md-8 col-lg-12">
+            <div class="col-md-8">
                 <div class="card-body">
                     <h5 class="card-title"><a href="<?= $item->link ?>"><?= $item->title ?></a></h5>
                     <p class="card-text"><small class="text-muted"><?= $item->pubDate=$formatter->format($date) ?></small></p>

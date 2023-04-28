@@ -1,4 +1,4 @@
-    
+
     <footer id="footer">
         <div class="endFooter">
             <span class="copyright">©CANARACTU.2023</span>

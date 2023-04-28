@@ -11,9 +11,8 @@
 </head>
 
 <body>
-    <div class="container">
+    
         <header class="header">
-
             <nav class="navbar navbar-expand-lg bg-dark">
                 <div class="container-fluid">
                     <img class="logoNav" src="/public/assets/img/logo-no-background.png" alt="logo">
@@ -30,3 +29,5 @@
                 </div>
             </nav>
         </header>
+    <div class="container">
+        
