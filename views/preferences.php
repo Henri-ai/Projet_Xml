@@ -3,7 +3,6 @@
 
 
 
-
 <div id="mid">
     <div class="formMid">
         <form method="post">
@@ -19,21 +18,22 @@
                 <label for="choice">Culture</label>
                 <input type="checkbox" class="choice" name="choice[]" value="5">
                 <label for="choice">Économie</label>
-                <div class="error"><?= $error[''] ?? '' ?>
+                <div class="error"><?= $error['choice'] ?? '' ?>
+                </div>
             </div>
-        </div>
             <div class="select">
-            <select class="form-select form-select-sm" name="nbrArticle" aria-label=".form-select-sm example">
-                <option value="choice">Choisissez le nombres d'arcticles</option>
-            <?php foreach (ARRAY_ARTICLE as $key => $article) {
-                                    $isSelected = ($nbrArticle == $article) ? 'selected' : '';
-                                    echo '<option ' . $isSelected . '>' . $article . '</option>';
-                                    
-                                } ?>
-            </select>
-            <small><?= $error['nbrArticle'] ?? '' ?></small>
-        </div>
-        <button class="button">Envoyer</button>
+                <select class="form-select form-select-sm" name="nbArticle" aria-label=".form-select-sm example">
+                    <option>Choisissez le nombres d'arcticles</option>
+                    <?php foreach (ARRAY_ARTICLE as $key => $article) {
+                        $isSelected = ($nbArticle == $article) ? 'selected' : '';
+                        echo '<option ' . $isSelected . '>' . $article . '</option>';
+                    } ?>
+                </select>
+                <small><?= $error['nbArticle'] ?? '' ?></small>
+            </div>
+
+            <button class="button">Envoyer</button>
+
         </form>
     </div>
 </div>

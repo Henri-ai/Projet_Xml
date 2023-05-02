@@ -21,6 +21,7 @@ flex-direction: column;
 
             .container-fluid{
                 height: 100%;
+                padding: 0;
             }
 
                 #navbarNavAltMarkup{
@@ -29,7 +30,7 @@ flex-direction: column;
                 }
 
                     .nav-link {
-                        color: #F3A83B;
+                        color: #F3A83B;                  
                         font-size: 25px;
                     }
 
