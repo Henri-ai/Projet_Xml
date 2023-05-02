@@ -10,8 +10,7 @@
     <title>CANARACTU</title>
 </head>
 
-<body>
-    
+<body>   
         <header class="header">
             <nav class="navbar navbar-expand-lg bg-dark">
                 <div class="container-fluid">
@@ -25,6 +24,7 @@
                             <a class="nav-link" href="#">Choice 2</a>
                             <a class="nav-link" href="#">Choice 3</a>
                         </div>
+                        <button id='dark' class="dark">Dark</button>
                     </div>
                 </div>
             </nav>

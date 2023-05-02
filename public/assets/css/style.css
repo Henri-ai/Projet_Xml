@@ -1,8 +1,6 @@
 
 body{
     margin: 0;
-
-
 }
 .container{
 padding: 0;
@@ -28,7 +26,7 @@ flex-direction: column;
 
                 #navbarNavAltMarkup{
                     display: flex;
-                    justify-content: center;
+                    justify-content: space-between;
                 }
 
                     .nav-link {
@@ -43,7 +41,7 @@ flex-direction: column;
 
 
 #mid {
-    background-color: rgb(249, 237, 20);
+    
     height: 72%;
     width: 100%;
     flex: auto;
@@ -107,5 +105,12 @@ flex-direction: column;
     }
 
         /* .endFooter{
- 
+
         } */
+
+/* dark mode */
+
+.darkStyle{
+    background: #1e1f20;
+}
+

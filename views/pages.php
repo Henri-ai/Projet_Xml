@@ -14,7 +14,7 @@ foreach ($items as $item) { ?>
     $formatter->setPattern('EEEE dd MMMM y H:mm');
     //----------------------------------------------------
     ?>
-    <div class="card mb-3 mx-2" style="max-width:400px">
+    <div class="card mb-3 mx-2" >
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="<?= $imageUrl?>" class="imgNews img-fluid rounded-start" alt="...">
